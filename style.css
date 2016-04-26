@@ -1,26 +1,126 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   background: white;
+  font-style: Arial;
   color: gray;
 }
 
-#main {
+/** Navigation bar style **/
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar {
+  float: right;
   position: relative;
-  margin: 25% auto;
-  left: 25%;
-  right: 25%;
-  background-color: #FFF;
-  color: gray;
+  background: white;
+}
+a {
+  color: #5C6366;
+  text-decoration: none;
 }
 
-.center {
-  border-radius: 25px;
-  border-width: 25px;
+#header {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+/** Button in navigation bar style **/
+
+.nav {
+  background: white;
+  border: none;
+  display: inline-block;
+  padding: 3px;
+}
+
+.nav2 {
+  background: blue;
+  border-radius: 4px;
+  padding: 7px;
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+}
+
+.nav2 a {
+  color: white;
+  text-align: center;
+}
+
+
+/** Navigation bar style end **/
+
+/** Placement of google logo **/
+
+.main img {
+  position: absolute;
+  left: 31%;
+  top: 10%;
+}
+/** placement of search bar, and enter buttons**/
+
+.search {
+  position: absolute;
+  left: 28%;
+  top: 43%;
 }
 
 .searchbar {
-  margin :5% auto;
+  width: 450px;
+  height: 30px;
 }
+/** This is to make the search bar longer. **/
+
+input {
+  width: 500px;
+  height: 35px;
+}
+
+/** style and placement for search buttons **/
+button {
+  background-color: #D0D7D9;
+  border: none;
+  color: #565C5E;
+  padding: 10px;
+}
+
+.google-search {
+  margin-top: 8%;
+  margin-right: 5%;
+  margin-left: 23%;
+}
+
+/** Setting up the correct location for the footer **/
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin: 0;
+  height: 8%;
+  background-color: #D0D7D9;
+}
+ /** Makes sure each item is in it's appropriate place **/
+ul.left {
+  float: left;
+}
+
+ul.right {
+  float: right;
+}
+
+/** fine tune items in footer **/
+
+li.foot {
+  display: inline-block;
+}
+
+li.foot2 {
+  display: inline-block;
+}
+
+/** Action done when hovering over the link **/
