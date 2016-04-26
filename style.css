@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  color: gray;
+}
+
+#main {
+  position: relative;
+  margin: 25% auto;
+  left: 25%;
+  right: 25%;
+  background-color: #FFF;
+  color: gray;
+}
+
+.center {
+  border-radius: 25px;
+  border-width: 25px;
+}
+
+.searchbar {
+  margin :5% auto;
+}
