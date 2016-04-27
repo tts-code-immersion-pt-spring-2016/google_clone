@@ -1,0 +1,156 @@
+/*general*/
+
+body {
+	font-size:13px;
+	font-family:Arial, sans-serif;
+}
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+/*navigation*/
+
+.navigation {
+	display:block;
+	float:right;
+}
+
+.navigation li {
+	display:inline-block;
+	padding-left:15px;
+}
+
+.navigation li img {
+	height:40px;
+	position:relative;
+	top:7px;
+}
+
+.navigation .icons img {
+	border-radius:25%;
+	height:30px;
+}
+
+.icons {
+	padding-right:25px;
+	position:relative;
+	top:3px;
+}
+
+/*center*/
+
+.main {
+	display:block;
+	width:100%;
+	text-align:center;
+}
+
+.logo {
+	width:100%;
+	padding-top:200px;
+	padding-bottom:25px;
+}
+
+.logo img {
+	display:block;
+	width: 269px;
+	height: 95px;
+	margin:auto;
+}
+
+.searchfield {
+	width: 592px;
+	height: 27px;
+	margin:auto;
+	position:relative;
+}
+
+.searchfield input {
+	width:570px;
+	height:100%;
+	border:1px solid #DDDDDD;
+	padding: 0 10px;
+	position:relative;
+	float:left;
+	z-index:10;
+}
+
+.searchfield input:hover {
+	border:1px solid #AEAEAE;
+}
+
+.buttons_search {
+	display:block;
+	margin-top:15px;
+}
+
+.buttons_search .button_search {
+	margin-right:6px;
+	margin-left:6px;
+	border:1px solid #DDD;
+	padding: 8px 3px;
+	display: inline-block;
+	background-color:#F2F2F2;
+	font-size:11px;
+	font-weight:600;
+}
+
+.button_search:hover {
+	border-bottom: 2px solid #CACACA;
+	background-color:#F5F5F5;
+}
+
+.button_search {
+	font-size:11px;
+	font-weight:600;
+}
+
+.google_search {
+	width:90px;
+}
+
+
+.feeling_lucky {
+	width:105px;
+}
+
+/*footer*/
+
+.footer {
+	position:absolute;
+	width:100%;
+	height:28px;
+	background-color:#F2F2F2;
+	bottom:5px;
+	border-top:1px solid #E4E4E4;
+}
+
+.footer_left {
+	display:block;
+	float:left;
+	width:48%;
+}
+
+.footer_right {
+	display: block;
+	text-align:right;
+}
+
+.footer_left ul li, .footer_right ul li{
+	display:inline-block;
+	padding-top:0px;
+	padding-bottom:0px;
+	color:#666;
+}
+
+.footer_left ul li{
+	padding-left:25px;
+}
+.footer_right ul li{
+	padding-right:25px;
+}
